@@ -1,0 +1,342 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "utsav123",
+      "fullname": "Utsav Acharya",
+      "email": "utsav@example.com",
+      "password": "password123",
+      "phone": "1234567890",
+      "designation": "Founder",
+      "userImage": "../public/userimage/utsav.jpeg"
+    },
+    {
+      "id": "2",
+      "username": "ram_the_dev",
+      "fullname": "Ram Bahadur",
+      "email": "ram@example.com",
+      "password": "ramdev2023",
+      "phone": "0987654321",
+      "designation": "Developer",
+      "userImage": "../public/userimage/ram.jpg"
+    },
+    {
+      "id": "3",
+      "username": "shyam2023",
+      "fullname": "Shyam Shrestha",
+      "email": "shyam@example.com",
+      "password": "shyam@321",
+      "phone": "1122334455",
+      "designation": "UI/UX Designer",
+      "userImage": "../public/userimage/shyam.jpg"
+    },
+    {
+      "id": "4",
+      "username": "hari_dev",
+      "fullname": "Hari Prasad",
+      "email": "hari@example.com",
+      "password": "hariPass99",
+      "phone": "6677889900",
+      "designation": "Backend Developer",
+      "userImage": "../public/userimage/hari.jpg"
+    },
+    {
+      "id": "5",
+      "username": "sita_code",
+      "fullname": "Sita Devi",
+      "email": "sita@example.com",
+      "password": "sita@789",
+      "phone": "9988776655",
+      "designation": "Frontend Developer",
+      "userImage": "../public/userimage/sita.jpg"
+    },
+    {
+      "id": 6,
+      "fullname": "new user",
+      "username": "new",
+      "email": "new@example.com",
+      "password": "new123",
+      "phone": "1234567890",
+      "designation": "new",
+      "userImage": "../public/userimage/laxmi.jpg"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "Project Alpha",
+      "description": "This is Project Alpha.",
+      "priority": "High",
+      "startDate": "2024-09-01",
+      "deadline": "2024-09-30",
+      "userIds": [
+        "1",
+        "2"
+      ],
+      "taskIds": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "status": "completed"
+    },
+    {
+      "id": "2",
+      "name": "Project Beta",
+      "description": "This is Project Beta.",
+      "priority": "Medium",
+      "startDate": "2024-09-10",
+      "deadline": "2024-10-15",
+      "userIds": [
+        "3",
+        "4"
+      ],
+      "taskIds": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "status": "completed"
+    },
+    {
+      "id": "3",
+      "name": "Project Gamma",
+      "description": "This is Project Gamma.",
+      "priority": "Low",
+      "startDate": "2024-09-15",
+      "deadline": "2024-10-25",
+      "userIds": [
+        "1",
+        "3"
+      ],
+      "taskIds": [
+        "9",
+        "10",
+        "11"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "4",
+      "name": "Project Delta",
+      "description": "This is Project Delta.",
+      "priority": "High",
+      "startDate": "2024-09-05",
+      "deadline": "2024-09-20",
+      "userIds": [
+        "2",
+        "5"
+      ],
+      "taskIds": [
+        "12",
+        "13",
+        "14"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "5",
+      "name": "Project Epsilon",
+      "description": "This is Project Epsilon.",
+      "priority": "Medium",
+      "startDate": "2024-09-20",
+      "deadline": "2024-11-10",
+      "userIds": [
+        "4",
+        "5"
+      ],
+      "taskIds": [
+        "15",
+        "16"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": 6,
+      "name": "test",
+      "description": "test",
+      "priority": "Medium",
+      "startDate": "2024-10-11",
+      "deadline": "2024-10-23",
+      "userIds": [
+        1,
+        3
+      ],
+      "status": "pending"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "name": "Design UI",
+      "status": "pending",
+      "priority": "Low",
+      "startDate": "2024-09-20",
+      "deadline": "2024-09-25",
+      "projectId": "1",
+      "assignedUserId": "3"
+    },
+    {
+      "id": "2",
+      "name": "Create wireframes",
+      "status": "pending",
+      "priority": "High",
+      "startDate": "2024-09-21",
+      "deadline": "2024-09-26",
+      "projectId": "1",
+      "assignedUserId": "3"
+    },
+    {
+      "id": "3",
+      "name": "Write frontend code",
+      "status": "pending",
+      "priority": "Low",
+      "startDate": "2024-09-22",
+      "deadline": "2024-09-27",
+      "projectId": "1",
+      "assignedUserId": "5"
+    },
+    {
+      "id": "4",
+      "name": "Conduct user testing",
+      "status": "completed",
+      "priority": "High",
+      "startDate": "2024-09-23",
+      "deadline": "2024-09-28",
+      "projectId": "1",
+      "assignedUserId": "1"
+    },
+    {
+      "id": "5",
+      "name": "Set up backend",
+      "status": "pending",
+      "priority": "Medium",
+      "startDate": "2024-09-15",
+      "deadline": "2024-10-05",
+      "projectId": "2",
+      "assignedUserId": "4"
+    },
+    {
+      "id": "6",
+      "name": "Create API documentation",
+      "status": "pending",
+      "priority": "Medium",
+      "startDate": "2024-09-16",
+      "deadline": "2024-10-06",
+      "projectId": "2",
+      "assignedUserId": "4"
+    },
+    {
+      "id": "7",
+      "name": "Implement authentication",
+      "status": "pending",
+      "priority": "Medium",
+      "startDate": "2024-09-17",
+      "deadline": "2024-10-07",
+      "projectId": "2",
+      "assignedUserId": "4"
+    },
+    {
+      "id": "8",
+      "name": "Integrate payment gateway",
+      "status": "pending",
+      "priority": "Low",
+      "startDate": "2024-09-18",
+      "deadline": "2024-10-08",
+      "projectId": "2",
+      "assignedUserId": "4"
+    },
+    {
+      "id": "9",
+      "name": "Testing and QA",
+      "status": "pending",
+      "priority": "Low",
+      "startDate": "2024-10-01",
+      "deadline": "2024-10-20",
+      "projectId": "3",
+      "assignedUserId": "2"
+    },
+    {
+      "id": "10",
+      "name": "Review code",
+      "status": "pending",
+      "priority": "Low",
+      "startDate": "2024-10-02",
+      "deadline": "2024-10-21",
+      "projectId": "3",
+      "assignedUserId": "2"
+    },
+    {
+      "id": "11",
+      "name": "Prepare deployment plan",
+      "status": "pending",
+      "priority": "Low",
+      "startDate": "2024-10-03",
+      "deadline": "2024-10-22",
+      "projectId": "3",
+      "assignedUserId": "2"
+    },
+    {
+      "id": "12",
+      "name": "Deploy to production",
+      "status": "in-process",
+      "priority": "Medium",
+      "startDate": "2024-09-10",
+      "deadline": "2024-09-19",
+      "projectId": "4",
+      "assignedUserId": "1"
+    },
+    {
+      "id": "13",
+      "name": "Monitor production environment",
+      "status": "pending",
+      "priority": "High",
+      "startDate": "2024-09-11",
+      "deadline": "2024-09-20",
+      "projectId": "4",
+      "assignedUserId": "1"
+    },
+    {
+      "id": "14",
+      "name": "Collect feedback",
+      "status": "pending",
+      "priority": "Medium",
+      "startDate": "2024-09-12",
+      "deadline": "2024-09-21",
+      "projectId": "4",
+      "assignedUserId": "1"
+    },
+    {
+      "id": "15",
+      "name": "Prepare documentation",
+      "status": "pending",
+      "priority": "Medium",
+      "startDate": "2024-10-01",
+      "deadline": "2024-11-05",
+      "projectId": "5",
+      "assignedUserId": "3"
+    },
+    {
+      "id": "16",
+      "name": "Finalize testing results",
+      "status": "pending",
+      "priority": "Low",
+      "startDate": "2024-10-02",
+      "deadline": "2024-11-06",
+      "projectId": "5",
+      "assignedUserId": "3"
+    },
+    {
+      "id": 17,
+      "name": "test",
+      "priority": "Medium",
+      "startDate": "2024-10-17",
+      "deadline": "2024-10-31",
+      "assignedUserId": "1",
+      "projectId": "6",
+      "status": "pending"
+    }
+  ]
+}
